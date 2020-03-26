@@ -3,14 +3,14 @@
 
 """Package entry point."""
 
-from brain_games.cli import welcome_user
+from brain_games import cli
 
 
 def main():
     """Run main script."""
     print('Welcome to the Brain Games!')
 
-    welcome_user()
+    cli.welcome_user()
 
 
 if __name__ == '__main__':
