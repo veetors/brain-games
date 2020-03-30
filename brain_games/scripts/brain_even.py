@@ -3,8 +3,8 @@
 
 """Brain even game entry point."""
 
-from brain_games.brain_even import get_game_data, rules
 from brain_games.cli import run
+from brain_games.games.brain_even import get_game_data, rules
 
 
 def main():

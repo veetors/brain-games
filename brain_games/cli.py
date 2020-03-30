@@ -26,7 +26,7 @@ def run(rules, get_round_data, counter=3):
         print('Question: {question}'.format(question=question))
         actual_answer = prompt.string('Your answer: ')
 
-        if expected_answer == actual_answer:
+        if str(expected_answer) == actual_answer:
             print('Correct!')
             counter -= 1
         else:
