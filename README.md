@@ -11,4 +11,4 @@
 
 ## [brain-gcd](https://asciinema.org/a/oz7IY14XRSFZUnzHPUKhh8oVb)
 
-##[brain-progression](https://asciinema.org/a/a29Xc1KrPdLIACsqo4xGxcgOC)
+## [brain-progression](https://asciinema.org/a/a29Xc1KrPdLIACsqo4xGxcgOC)
