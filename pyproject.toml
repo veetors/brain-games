@@ -3,7 +3,7 @@ name = "veetors_brain_games"
 version = "0.1.8"
 description = "A set of console mini-games."
 authors = ["veetors <veetor.s@gmail.com>"]
-repository = "git+https://github.com/veetors/python-project-lvl1.git"
+repository = "https://github.com/veetors/python-project-lvl1"
 classifiers = [
   "Development Status :: 3 - Alpha",
   "Environment :: Console"
