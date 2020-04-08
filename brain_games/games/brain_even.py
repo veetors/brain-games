@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-"""Brain even game logic."""
+"""'Brain-even' game logic."""
 
 from brain_games.common import get_random_number
 

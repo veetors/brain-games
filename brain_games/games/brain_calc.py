@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-"""Brain calc game logic."""
+"""'Brain-calc' game logic."""
 
 import random
 from operator import add, mul, sub

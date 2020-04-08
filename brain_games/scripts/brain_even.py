@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 # -*- coding:utf-8 -*-
 
-"""Brain even game entry point."""
+"""'Brain-even' game entry point."""
 
 from brain_games.cli import run
 from brain_games.games.brain_even import get_game_data, rules
 
 
 def main():
-    """Run 'Brain even' game."""
+    """Run 'Brain-even' game."""
     run(rules, get_game_data)
 
 
