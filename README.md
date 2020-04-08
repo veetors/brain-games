@@ -6,12 +6,16 @@
 [![wemake-python-styleguide](https://img.shields.io/badge/style-wemake-000000.svg)](https://github.com/wemake-services/wemake-python-styleguide)
 
 ## brain-even
-### [![brain-even](https://asciinema.org/a/Qk2g4YCybnR5kc7OAP4lKYIlC.png)](https://asciinema.org/a/Qk2g4YCybnR5kc7OAP4lKYIlC)
+[![brain-even](https://asciinema.org/a/Qk2g4YCybnR5kc7OAP4lKYIlC.png)](https://asciinema.org/a/Qk2g4YCybnR5kc7OAP4lKYIlC)
 
-## [brain-calc](https://asciinema.org/a/SrhtCNZfgvhLzC7oD9r25r53l)
+## brain-calc
+[![brain-calc](https://asciinema.org/a/PdVP9rFvYYXnk1ZX9lHB1UoLh.png)](https://asciinema.org/a/PdVP9rFvYYXnk1ZX9lHB1UoLh)
 
-## [brain-gcd](https://asciinema.org/a/oz7IY14XRSFZUnzHPUKhh8oVb)
+## brain-gcd
+[![brain-gcd](https://asciinema.org/a/xJ086hLgKPtmZeDWtTO5Wnlx6.png)](https://asciinema.org/a/xJ086hLgKPtmZeDWtTO5Wnlx6)
 
-## [brain-progression](https://asciinema.org/a/a29Xc1KrPdLIACsqo4xGxcgOC)
+## brain-progression
+[![brain-progression](https://asciinema.org/a/3ENAiqniWnx43GFhVZttKmBfC.png)](https://asciinema.org/a/3ENAiqniWnx43GFhVZttKmBfC)
 
-## [brain-prime](https://asciinema.org/a/tRS0PhLPkG6RtFKyjcC52pUQf)
+## brain-prime
+[![brain-prime](https://asciinema.org/a/VBvgdWVTxPsGolY8YDsj3RtZv.png)](https://asciinema.org/a/VBvgdWVTxPsGolY8YDsj3RtZv)
