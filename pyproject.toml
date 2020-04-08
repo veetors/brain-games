@@ -1,8 +1,13 @@
 [tool.poetry]
 name = "veetors_brain_games"
-version = "0.1.7"
-description = ""
+version = "0.1.8"
+description = "A set of console mini-games."
 authors = ["veetors <veetor.s@gmail.com>"]
+repository = "git+https://github.com/veetors/python-project-lvl1.git"
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Environment :: Console"
+]
 packages = [
   { include = "brain_games" },
 ]
