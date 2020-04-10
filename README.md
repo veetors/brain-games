@@ -5,6 +5,9 @@
 [![Build Status](https://travis-ci.org/veetors/python-project-lvl1.svg?branch=master)](https://travis-ci.org/veetors/python-project-lvl1)
 [![wemake-python-styleguide](https://img.shields.io/badge/style-wemake-000000.svg)](https://github.com/wemake-services/wemake-python-styleguide)
 
+## Installation
+`pip install --index-url https://test.pypi.org/simple --extra-index-url https://pypi.org/simple veetors-brain-games`
+
 ## brain-even
 [![brain-even](https://asciinema.org/a/Qk2g4YCybnR5kc7OAP4lKYIlC.png)](https://asciinema.org/a/Qk2g4YCybnR5kc7OAP4lKYIlC)
 
