@@ -2,12 +2,12 @@
 
 """'Brain-progression' game logic."""
 
-from brain_games.common import get_random_number
+import random
 
-rules = 'What number is missing in the progression?'
+RULES = 'What number is missing in the progression?'
 
 
-def get_progression(start=1, step=1, length=10):
+def get_progression(start, step, length):
     """Generate arithmetic progression.
 
     Parameters:
@@ -19,10 +19,8 @@ def get_progression(start=1, step=1, length=10):
         list
     """
     progression = []
-    current = start
     for index in range(length):
-        current = current + step if index > 0 else current
-        progression.append(current)
+        progression.append(start + index * step)
     return progression
 
 
@@ -39,16 +37,12 @@ def get_question(iterible, target_index):
     question = ''
     for index, elem in enumerate(iterible):
         space = ' ' if index > 0 else ''
-        current = '..' if index == target_index else elem
-        question = '{question}{space}{current}'.format(
-            question=question,
-            space=space,
-            current=current,
-        )
+        current = '..' if index == target_index else str(elem)
+        question += space + current
     return question
 
 
-def get_game_data():
+def get_round_data():
     """Generate data for game.
 
     Returns:
@@ -56,12 +50,12 @@ def get_game_data():
     """
     length = 10
     progression = get_progression(
-        start=get_random_number(1, 10),
-        step=get_random_number(1, 10),
+        start=random.randint(1, 10),  # noqa: S311,
+        step=random.randint(1, 10),  # noqa: S311,
         length=length,
     )
-    target_index = get_random_number(0, length - 1)
+    target_index = random.randint(0, length - 1)  # noqa: S311
     question = get_question(progression, target_index)
     answer = progression[target_index]
 
-    return (question, answer)
+    return (question, str(answer))

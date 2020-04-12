@@ -2,9 +2,9 @@
 
 """'Brain-gcd' game logic."""
 
-from brain_games.common import get_random_number
+import random
 
-rules = 'Find the greatest common divisor of given numbers.'
+RULES = 'Find the greatest common divisor of given numbers.'
 
 
 def get_greatest_common_divisor(num1, num2):
@@ -25,14 +25,14 @@ def get_greatest_common_divisor(num1, num2):
     return num1
 
 
-def get_game_data():
+def get_round_data():
     """Generate data for game.
 
     Returns:
         tuple
     """
-    num1 = get_random_number()
-    num2 = get_random_number()
+    num1 = random.randint(1, 100)  # noqa: S311
+    num2 = random.randint(1, 100)  # noqa: S311
     question = '{num1} {num2}'.format(num1=num1, num2=num2)
     greatest_common_divisor = get_greatest_common_divisor(num1, num2)
-    return (question, greatest_common_divisor)
+    return (question, str(greatest_common_divisor))

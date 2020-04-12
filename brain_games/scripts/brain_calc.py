@@ -3,13 +3,12 @@
 
 """'Brain-calc' game entry point."""
 
-from brain_games.cli import run
-from brain_games.games.brain_calc import get_game_data, rules
+from brain_games import engine, games
 
 
 def main():
     """Run 'Brain-calc' game."""
-    run(rules, get_game_data)
+    engine.run(games.calc)
 
 
 if __name__ == '__main__':

@@ -2,9 +2,9 @@
 
 """'Brain-prime' game logic."""
 
-from brain_games.common import get_random_number
+import random
 
-rules = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+RULES = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def is_prime(number):
@@ -28,13 +28,13 @@ def is_prime(number):
     return True
 
 
-def get_game_data():
+def get_round_data():
     """Generate data for game.
 
     Returns:
         tuple: random number and correct answer
     """
-    number = get_random_number()
+    number = random.randint(1, 100)  # noqa: S311
     answer = 'yes' if is_prime(number) else 'no'
 
     return (number, answer)

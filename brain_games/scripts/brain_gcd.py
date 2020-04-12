@@ -3,13 +3,12 @@
 
 """'Brain-gcd' game entry point."""
 
-from brain_games.cli import run
-from brain_games.games.brain_gcd import get_game_data, rules
+from brain_games import engine, games
 
 
 def main():
     """Run 'Brain-gcd' game."""
-    run(rules, get_game_data)
+    engine.run(games.gcd)
 
 
 if __name__ == '__main__':
