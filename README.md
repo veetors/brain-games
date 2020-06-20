@@ -1,8 +1,7 @@
 # Brain Games
 
-[![Maintainability](https://api.codeclimate.com/v1/badges/42b89296aa8a1934d373/maintainability)](https://codeclimate.com/github/veetors/python-project-lvl1/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/42b89296aa8a1934d373/test_coverage)](https://codeclimate.com/github/veetors/python-project-lvl1/test_coverage)
-[![Build Status](https://travis-ci.org/veetors/python-project-lvl1.svg?branch=master)](https://travis-ci.org/veetors/python-project-lvl1)
+[![Maintainability](https://api.codeclimate.com/v1/badges/52a43a772a9724723e1a/maintainability)](https://codeclimate.com/github/veetors/brain-games/maintainability)
+[![Build Status](https://travis-ci.org/veetors/brain-games.svg?branch=master)](https://travis-ci.org/veetors/brain-games)
 [![wemake-python-styleguide](https://img.shields.io/badge/style-wemake-000000.svg)](https://github.com/wemake-services/wemake-python-styleguide)
 
 ## Installation
